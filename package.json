@@ -4,6 +4,7 @@
   "description": "this is a proxy server for github jobs react project\r Purpose is to unblock cors whitch are blocked by github on client side api calls",
   "main": "app.js",
   "scripts": {
+    "start": "app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
