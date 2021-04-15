@@ -4,8 +4,10 @@ var cors = require('cors')
 const app = express()
 const port = 5000
 
+
 app.use(cors())
 
+// header
 app.use((req, res, next) => {
 	res.header('Access-Control-Allow-Origin', '*');
 	next();
