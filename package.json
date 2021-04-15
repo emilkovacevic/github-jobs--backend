@@ -4,14 +4,14 @@
   "description": "this is a proxy server for github jobs react project\r Purpose is to unblock cors whitch are blocked by github on client side api calls",
   "main": "app.js",
   "scripts": {
-    "start": "app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emilkovacevic/github-jobs--backend.git"
   },
-  "author": "",
+  "author": "emil kovacevic",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/emilkovacevic/github-jobs--backend/issues"
