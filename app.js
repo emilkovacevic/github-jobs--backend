@@ -1,11 +1,9 @@
 const express = require('express')
 const axios = require('axios');
-var cors = require('cors')
 const app = express()
 const port = 5000
 
 
-app.use(cors())
 
 // header
 
