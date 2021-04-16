@@ -22,4 +22,4 @@ app.get("/", (req, res) => {
 	.catch(err => console.log(err))
 })
 
-app.listen( process.env.PORT || port, ()=> console.log('exampe listen port on ' + port))
+app.listen( process.env.PORT || port)
