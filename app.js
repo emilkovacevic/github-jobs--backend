@@ -8,17 +8,15 @@ const port = 5000
 app.use(cors())
 
 // header
-app.use((req, res) => {
+
+app.use((req, res, next) => {
 	res.header('Access-Control-Allow-Origin', '*');
+	next();
   });
   
 
 
 app.get("/", (req, res) => {
-	res.send('running')
-})
-
-app.get("/jobs", (req, res) => {
     axios.get('https://jobs.github.com/positions.json')
 	.then(response => res.send(response.data))
 	.catch(err => console.log(err))
