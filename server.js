@@ -15,6 +15,10 @@ app.use((req, res) => {
 
 
 app.get("/", (req, res) => {
+	res.send('running')
+})
+
+app.get("/jobs", (req, res) => {
     axios.get('https://jobs.github.com/positions.json')
 	.then(response => res.send(response.data))
 	.catch(err => console.log(err))

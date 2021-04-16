@@ -2,10 +2,10 @@
   "name": "github-jobs--backend",
   "version": "1.0.0",
   "description": "this is a proxy server for github jobs react project\r Purpose is to unblock cors whitch are blocked by github on client side api calls",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./app.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
