@@ -8,10 +8,8 @@ const port = 5000
 app.use(cors())
 
 // header
-
-app.use((req, res, next) => {
+app.use((req, res) => {
 	res.header('Access-Control-Allow-Origin', '*');
-	next();
   });
   
 
